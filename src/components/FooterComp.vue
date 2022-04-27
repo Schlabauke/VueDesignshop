@@ -1,18 +1,6 @@
 <template>
-<div>
-    <header class="headerNav">
-      <h1><router-link to='/'>THE DESIGN SHOP</router-link></h1>
-    <article class="navLinks">
-        <router-link to="/sale">Less than 30$</router-link>
-        <router-link to="/additem">Add Product</router-link>
-    </article>
-    </header>
-  <router-view/>
-  <main>
-    <router-view/>
-  </main>
-  <footer>
-  <section class="footergrid">
+<section>
+<section class="footergrid">
     <article>
         <h2>The Design Shop</h2>
         <p>Carefully curated online design store</p>
@@ -42,22 +30,17 @@
     <p id="pTag"></p>
     <p>The DesignBlog</p>
 </section>
-  </footer>
-  </div>
+</section>
 </template>
 
+<script>
+export default {
+    name:'FooterComp'
+}
+
+</script>
 <style lang="sass">
 
-.headerNav 
-    display: flex
-    justify-content: space-between
-    align-items: baseline 
-    margin-right: 3em
-   
-    .navLinks 
-        a 
-            margin-left: 3vw
-        
 .footergrid 
         margin: 0 auto
         display: flex
@@ -81,11 +64,10 @@
         article:nth-of-type(4)
             margin-left:5em
         
-footer
+section 
     section:nth-of-type(2)
         display: flex
         margin: 5em 0 1em 5vw
         color: #848484   
-
-
+    
 </style>
