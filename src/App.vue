@@ -7,7 +7,6 @@
         <router-link to="/additem">Add Product</router-link>
     </article>
     </header>
-  <router-view/>
   <main>
     <router-view/>
   </main>
