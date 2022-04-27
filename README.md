@@ -1,4 +1,8 @@
 # vuedesignshop
+recreating The Design Shop with Vue.js for practice and learning. 
+working with backend,data-fetch from MongoDB and trying to work with forminput to send data to the database. 
+
+Work in Progress :) 
 
 ## Project setup
 ```
